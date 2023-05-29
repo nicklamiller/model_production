@@ -1,2 +1,2 @@
 run-app:
-		gunicorn --bind 0.0.0.0:8080 wsgi:application -w 1
+		poetry run gunicorn --bind 0.0.0.0:8080 wsgi:application -w 1

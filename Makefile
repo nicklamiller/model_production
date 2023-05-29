@@ -1,2 +1,2 @@
 model:
-		python -m make_model
+		poetry run python -m make_model
