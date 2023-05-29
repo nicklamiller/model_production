@@ -47,4 +47,4 @@ model.fit(X_train_arr, y_train)
 y_pred = model.predict(X_test_arr)
 
 pickled_model = {'model': model}
-pickle.dump(pickled_model, open( 'model_file' + ".p", "wb" ))
+pickle.dump(pickled_model, open( 'models/model_file' + ".p", "wb" ))
