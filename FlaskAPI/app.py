@@ -8,7 +8,10 @@ app = Flask(__name__)
 
 @app.route('/predict', methods=['GET'])
 def predict():
-    x = 5.963
+
+    request_json = request.get_json()
+    x = float(request_json['input'])
+
     model = load_models()
     prediction = model.predict([[x]])[0]
 
