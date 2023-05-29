@@ -905,17 +905,6 @@ files = [
 ]
 
 [[package]]
-name = "sklearn"
-version = "0.0.post5"
-description = "deprecated sklearn package, use scikit-learn instead"
-category = "main"
-optional = false
-python-versions = "*"
-files = [
-    {file = "sklearn-0.0.post5.tar.gz", hash = "sha256:7377c714a03a79bbe9196f435db931fd2a6fa8c68514da7ed3a251fd08c52e2c"},
-]
-
-[[package]]
 name = "termcolor"
 version = "2.3.0"
 description = "ANSI color formatting for output in terminal"
@@ -1054,4 +1043,4 @@ watchdog = ["watchdog (>=2.3)"]
 [metadata]
 lock-version = "2.0"
 python-versions = "^3.10"
-content-hash = "4e5082764a0e4b71b1f5d37bcd05a4bb2d6eadd2e8ce87718d7f23df37c861d3"
+content-hash = "ce6ab1f0d9152dbb21de9d2d4769c7f15e6e0d49bab1e9c9786ea31a170cb543"
