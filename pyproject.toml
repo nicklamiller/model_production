@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "model-production"
+version = "0.1.0"
+description = "Practice deploying models"
+authors = ["nicklamiller <nicklamiller@gmail.com>"]
+readme = "README.md"
+packages = [{include = "model_production"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+Flask = "^2.3.2"
+gunicorn = "^20.1.0"
+sklearn = "^0.0.post5"
+numpy = "^1.24.3"
+pandas = "^2.0.1"
+scikit-learn = "^1.2.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
